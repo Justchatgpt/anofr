@@ -1,0 +1,59 @@
+﻿## Interface: 110002, 110005
+## Title: WoWAssistantPX
+## Title-zhCN: 魔兽小助手PX
+## Title-zhTW: 魔獸小助手PX
+## Notes: Spell prompt plugin
+## Notes-zhCN: 一款能在游戏中显示法术使用提示的插件
+## Notes-zhTW: 一款能在遊戲中顯示法術使用提示的插件
+## IconTexture: Interface\ICONS\Inv_sigil_mimiron
+## Version: 4.2
+## X-SVV: 1.5
+
+## SavedVariables: WoWAssistant_ImmuneControlUnitCache
+## SavedVariablesPerCharacter: WoWAssistantNoteDate, BalanceSaves, FeralSaves, RestorationSaves
+
+LibStub.lua
+LibRangeCheck-3.0.lua
+WoWAssistantPXAPI.lua
+Bindings.lua
+
+DamagerEngine\DamagerEngineGetDiminishingStuns.lua
+DamagerEngine\DamagerEngineGetIgnoreUnit.lua
+DamagerEngine\DamagerEngineGetImmuneControlUnit.lua
+DamagerEngine\DamagerEngineGetInterruptSpell.lua
+DamagerEngine\DamagerEngineGetNoAttackAuras.lua
+DamagerEngine\DamagerEngineGetNoCastingAuras.lua
+DamagerEngine\DamagerEngineGetNoThreatUnit.lua
+DamagerEngine\DamagerEngineGetNoUsePowerfulSpell.lua
+DamagerEngine\DamagerEngineGetPosition.lua
+DamagerEngine\DamagerEngineGetPriorityAttackAuras.lua
+DamagerEngine\DamagerEngineGetPriorityUnit.lua
+
+HealerEngine\HealerEngineAdvanceRejuvenationUnit.lua
+HealerEngine\HealerEngineAggro.lua
+HealerEngine\HealerEngineAlertSpellCache.lua
+HealerEngine\HealerEngineHealAuras.lua
+HealerEngine\HealerEngineHealAurasLow.lua
+HealerEngine\HealerEngineHealAurasWarn.lua
+HealerEngine\HealerEngineNoCastingAurasCache.lua
+HealerEngine\HealerEngineNoHealAuras.lua
+HealerEngine\HealerEngineSpecialHealsUnit.lua
+
+
+Specialization\Druid\Balance\BalanceAuras.lua
+Specialization\Druid\Balance\BalanceCycle.lua
+Specialization\Druid\Balance\BalanceOption.lua
+Specialization\Druid\Balance\BalanceSetBinding.lua
+
+Specialization\Druid\Feral\FeralAuras.lua
+Specialization\Druid\Feral\FeralCycle.lua
+Specialization\Druid\Feral\FeralOption.lua
+Specialization\Druid\Feral\FeralSetBinding.lua
+
+Specialization\Druid\Restoration\RestorationAlertSpell.lua
+Specialization\Druid\Restoration\RestorationAuras.lua
+Specialization\Druid\Restoration\RestorationLighthouse.lua
+Specialization\Druid\Restoration\RestorationLighthouseHeals.lua
+Specialization\Druid\Restoration\RestorationNoCastingAuras.lua
+Specialization\Druid\Restoration\RestorationOption.lua
+Specialization\Druid\Restoration\RestorationSetBinding.lua

@@ -1,0 +1,26 @@
+<Bindings>
+	<Binding name="WoWAssistant_Config" category="魔兽小助手" header="WoWAssistant_Config">
+		WoWAssistant_BeConfig()
+	</Binding>
+	<Binding name="WoWAssistant_Start" category="魔兽小助手">
+		WoWAssistant_BeStart()
+	</Binding>
+	<Binding name="WoWAssistant_Stop" category="魔兽小助手">
+		WoWAssistant_BeStop()
+	</Binding>
+	<Binding name="WoWAssistant_Toggle" category="魔兽小助手">
+		WoWAssistant_BeToggle()
+	</Binding>
+	<Binding name="WoWAssistant_Replace" category="魔兽小助手">
+		WoWAssistant_BeReplace()
+	</Binding>
+	<Binding name="WoWAssistant_Replace1" category="魔兽小助手">
+		WoWAssistant_BeReplace1()
+	</Binding>
+	<Binding name="WoWAssistant_Replace2" category="魔兽小助手">
+		WoWAssistant_BeReplace2()
+	</Binding>
+	<Binding name="WoWAssistant_Replace3" category="魔兽小助手">
+		WoWAssistant_BeReplace3()
+	</Binding>
+</Bindings>
